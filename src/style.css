@@ -24,6 +24,11 @@ header {
     color: #5D12D2;
     font-weight: 900;
     letter-spacing: 5px;
+    transition: 0.3s;
+}
+
+.pembungkus h1:hover {
+    transform: translateY(-25px);
 }
 
 .pembungkus h2 {
@@ -31,6 +36,11 @@ header {
     font-weight: 700;
     letter-spacing: 3px;
     margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.pembungkus h2:hover {
+    transform: translateY(15px);
 }
 
 .pembungkus a{
@@ -43,13 +53,12 @@ header {
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.3s ease-in;
-    transform: scaleX(1);
 }
 
 .pembungkus a:hover{
     box-shadow: 0 5px 5px 0 #FF3FA4;
     color: #45FFCA;
-    transform: scaleX(3);
+    transform: translateY(25px);
 }
 
 
